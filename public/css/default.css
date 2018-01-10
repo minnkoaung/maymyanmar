@@ -406,6 +406,10 @@ body {
 	padding: 0px;
 	margin-top: 150px;
 }
+/*----------------------------- contact us---------------------------------*/
+.contact_form_group input{
+    height: 65px;
+}
 
 
 
