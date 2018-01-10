@@ -1,0 +1,440 @@
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.text-blue {
+    color: #054da2;
+}
+
+.header_container_row,
+.nav-fluid {
+    background: #fef135;
+}
+
+.header_blue_strip {
+    min-height: 124px;
+    background-image: url(../images/maymyanmar_imgs_33.png);
+    background-repeat: repeat-x;
+}
+
+.header_red_strip {
+    min-height: 124px;
+    background-image: url(../images/maymyanmar_imgs_03.png);
+    background-repeat: repeat-x;
+    padding-left: 0px;
+}
+
+.myconatiner {
+    width: 100%;
+    min-height: 124px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.header_inside_container {
+    min-height: 124px;
+}
+
+.header_inside_row img {
+    display: inline-block;
+    float: left;
+}
+
+.header_contact_info_inner_row {
+    margin-top: 29px;
+}
+
+.header_contact_info_ico {
+    margin-top: 19px;
+}
+
+.header_contact_info,
+.header_contact_info2 {
+    float: left;
+    padding: 0px;
+}
+
+.navbar-default {
+    background: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: #ed202f;
+    color: #ed202f;
+    border: none;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #ed202f;
+    background: transparent;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0d4e8a;
+}
+
+.navbar-nav li {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-text {
+    color: #000;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ed202f;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #034da2;
+}
+
+.hero_fluid {
+    background-image: url(../images/heroimg/maymyanmar_hero_fix2.jpg);
+    height: 775px;
+    background-repeat: no-repeat;
+}
+
+.ss_hero {
+    margin-top: 20px;
+}
+
+.social_container {
+    width: 68px;
+    height: auto;
+    position: fixed;
+    right: 16px;
+    top: 350px;
+    z-index: 9;
+}
+
+.maincontent_fluid {
+    background: #fff;
+}
+
+.welcome_mssg_col {
+    color: #000;
+    padding: 80px 0 50px 0;
+}
+
+.welcome_mssg_col h1 {
+    margin-bottom: 50px;
+}
+
+.stack_contact {
+    min-height: 600px;
+    background-image: url(../images/maymyanmar_footerbg.jpg);
+    background-color: #024ca3;
+    background-repeat: no-repeat;
+}
+
+.footer_fluid {
+    background-color: #023d83;
+    min-height: 175px;
+    padding: 30px 0 30px 0
+}
+
+.rights_text,
+.rights_text a {
+    color: #fff;
+    padding: 20px 0 10px 0;
+}
+
+.stack_contact_row {
+    margin-top: 60px;
+    line-height: 30px;
+}
+
+.stack_contact_title {
+    color: #fff;
+}
+
+.address-1a {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.address-1a h4 {
+    color: #f9eca1;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.address-1a h5 {
+    margin-top: 20px;
+    color: #c0dfda;
+    font-weight: bold;
+}
+
+
+/*------------------------- navigator ------------------------------------*/
+
+.page_navigator_fluid {
+    min-height: 50px;
+    background: #cfcdcd;
+    color: #646464;
+}
+
+.breadcrumb {
+    padding: 30px 30px 10px 30px;
+    background-color: transparent;
+}
+
+.breadcrumb li a {
+    color: #646464;
+    font-weight: bold;
+}
+
+.content_title_col {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.content_title {
+    margin: 0px !important;
+    padding: 18px 0px 30px 18px !important;
+}
+
+
+/*---------------------------------------search -------------------------------*/
+
+.search_maid_container {
+    margin-top: 20px;
+}
+
+.panel-default>.panel-heading {
+    background-color: #eed437;
+}
+
+.filter_panel_head {
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+}
+
+.tumbnail_img_wrapper {
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    margin: 40px auto;
+    border-radius: 150px;
+    border: 5px solid #5b80ad;
+    vertical-align: middle;
+    background-size: contain;
+}
+
+.tumbnail_img_wrapper img {
+    display: block;
+    max-width: 255px;
+    max-height: 222px;
+    width: auto;
+    height: auto;
+}
+
+.thumbnail .caption {
+    padding: 0px 9px 0px 9px;
+}
+
+.view_detail_btn {
+    padding: 10px 40px 10px 40px;
+    background: #034da2;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+
+.view_detail_btn:hover {
+    background: #eed437;
+    color: #034da2;
+}
+
+.thumbnail:hover {
+    background: #bed7f3;
+}
+
+
+/*------------------------ services ----------------------------------*/
+
+.services_title {
+    padding: 20px 0px 20px 20px !important;
+}
+
+.ourvalue_col_row {
+    padding: 15px;
+}
+
+.ourvalue_inside_col {
+    padding: 0px;
+    min-width: 256px;
+    max-height: 198px;
+}
+
+.ourvalue_inside_col img {
+    width: 100%;
+}
+
+.ourvalue_caption {
+    height: 52px;
+    background: #eeeeee;
+    line-height: 52px;
+    padding: 0px 10px 0px 10px;
+}
+
+.ourvalue_caption:before {
+    content: url('../images/services/services_tooptip1.png');
+    width: 36px;
+    height: 18px;
+    position: absolute;
+    z-index: 100;
+    right: 125px;
+    top: -25px;
+}
+
+
+/*-------------------------------------- training -------------------------------------*/
+
+.training_row2 {
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.nusing_aid_sec_ul li {
+    line-height: 30px;
+}
+
+.ojt_ul li {
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+}
+
+.our_attribution,
+.dedicated_title_col,
+.ojt_title_col {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ojt {
+    border-bottom: 2px solid #cdcdcd;
+}
+
+
+/*----------------------------------testimonial -----------------------------*/
+
+.star-rating {
+    line-height: 32px;
+    font-size: 1.25em;
+}
+.star-rating .fa-star {
+    color: #ffb400;
+}
+.testimonial_text{
+    min-height: 150px;
+    background: url(../images/testimonials/testimonials_03.png);
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+/*----------------------------------faqs-----------------------------------------*/
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+.panel-title [data-toggle="collapse"]:before {
+    font-family: 'FontAwesome';
+     content: "\f056";
+    color: #00489f;
+    font-size: 18px;
+    line-height: 22px;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg) 0.2s linear; 
+}
+
+.panel-title [data-toggle="collapse"].collapsed:before {
+	font-family: 'FontAwesome';
+    content: "\f055";
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg) 0.2s linear; 
+    color: #00489f;
+}
+.faq_question{
+	font-weight: bold;
+}
+.faq_panel_heading{
+	background-color: transparent !important;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body{
+	border-top-color:transparent;
+}
+.panel-group .panel + .panel{
+	margin-top: 50px;
+}
+.panel{
+	border: none;
+}
+.accordion-toggle{
+	text-decoration: none;
+}
+.faq_full_img_container{
+	background-image: url('../images/faqs/faq_08.png');
+	background-size: cover;
+	height: 226px;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+/*-------------------- Loading ----------------------------*/
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.pace-inactive {
+    display: none;
+}
+
+.pace .pace-progress {
+    background: #0052d9;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 2px;
+}
