@@ -4,12 +4,12 @@
 			    <div class="panel-heading" role="tab" id="headingOne">
 			      <h4 class="panel-title">
 			        <a role="button" class="filter_panel_head" data-toggle="collapse" data-parent="#filter" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-			          <i class="fa fa-minus-circle" aria-hidden="true"></i> Filter
+			           Filter
 			        </a>
 			      </h4>
 			    </div>
 			    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-			      <div class="panel-body filter_panel_body">
+			      <div class="panel-body filter_panel_body" style="border: 1px solid #cdcdcd;">
 			      	<form action="">
 					  <div class="form-group">
 					    <label for="name" class="text-primary">Name</label>
